@@ -37,12 +37,12 @@ try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
 except:
-    UPSTREAM_REPO = "https://github.com/VisionTG/mltb"
+    UPSTREAM_REPO = "https://github.com/shuvam-dawn/MLTB-Custom-UI"
 try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
 except:
-    UPSTREAM_BRANCH = 'master'
+    UPSTREAM_BRANCH = 'h-code'
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
